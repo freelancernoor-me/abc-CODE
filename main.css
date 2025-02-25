@@ -37,6 +37,7 @@
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 .service_container .service {
     flex-grow: 1;
@@ -87,6 +88,7 @@
 }
 .hero h2 {
     font-size: 50px;
+    text-align: center;
 }
 
 
@@ -111,7 +113,7 @@
 
 footer {
     color: rgb(2, 154, 2);
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     margin-top: 10px;
     padding: 10px;
 }
